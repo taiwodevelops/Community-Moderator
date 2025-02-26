@@ -1,4 +1,4 @@
-// Theme Toggle
+
 const themeToggle = document.querySelector(".theme-toggle");
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
@@ -51,9 +51,9 @@ const header = document.querySelector("header");
 
 const replayTypewriter = () => {
   const typewriter = document.querySelector(".typewriter");
-  typewriter.style.animation = "none"; // Reset animation
+  typewriter.style.animation = "none"; 
   setTimeout(() => {
-    typewriter.style.animation = ""; // Re-enable animation
+    typewriter.style.animation = ""; 
   }, 10);
 };
 
