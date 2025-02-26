@@ -276,20 +276,20 @@
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 3px solid var(--primary-color); /* Cursor effect */
+    border-right: 3px solid var(--primary-color); 
     animation:
-      typewriter 2s steps(20) 1s 1 normal both, /* Typing animation */
-      blinkCursor 0.75s steps(20) infinite; /* Blinking cursor */
+      typewriter 2s steps(20) 1s 1 normal both, 
+      blinkCursor 0.75s steps(20) infinite; 
   }
 
  /* Animated Name Styles */
 .animated-name {
     display: inline-block;
     position: relative;
-    font-size: 11rem; /* Adjust size as needed */
+    font-size: 11rem; 
     text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: 2px grey; /* Stroke color */
+    -webkit-text-stroke: 2px grey; 
     overflow: hidden;
     white-space: nowrap;
   }
@@ -301,7 +301,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: linear-gradient(to right, transparent 50%, #fff 50%); /* Fill effect */
+    background: linear-gradient(to right, transparent 50%, #fff 50%); 
     background-size: 200% 100%;
     animation: fillText 5s ease-in-out infinite alternate;
   }
@@ -317,13 +317,13 @@
 
   @media (max-width: 768px) {
     .animated-name {
-      font-size: 6rem; /* Smaller font size for tablets */
+      font-size: 6rem; 
     }
   }
   
   @media (max-width: 480px) {
     .animated-name {
-      font-size: 4rem; /* Even smaller font size for mobile devices */
+      font-size: 4rem; 
     }
   }
   
