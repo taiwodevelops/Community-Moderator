@@ -255,10 +255,10 @@
   /* Typewriter Animation */
 @keyframes typewriter {
     from {
-      clip-path: inset(0 100% 0 0); /* Start with text fully hidden */
+      clip-path: inset(0 100% 0 0); 
     }
     to {
-      clip-path: inset(0 0 0 0); /* End with text fully visible */
+      clip-path: inset(0 0 0 0); 
     }
   }
   
